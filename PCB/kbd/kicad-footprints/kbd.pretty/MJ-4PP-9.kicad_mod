@@ -1,0 +1,179 @@
+(footprint "MJ-4PP-9"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J4"
+		(at -0.85 4.95 0)
+		(layer "F.Fab")
+		(uuid "2b0b59df-acde-4a4c-b85f-be14523df2a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "MJ-4PP-9"
+		(at 0 14 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c163196d-e0eb-4191-a0e4-537906aab0a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kbd:MJ-4PP-9"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26233ba7-99a6-4240-b0a0-cf8afda9c66b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdec3227-0386-4d4a-b8d1-e2ca147afa2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6f0d5c8-b78b-4be1-aa14-b28fd38e44e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.9 0.15)
+		(end 2.9 0.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe084c7b-8c2f-4927-be74-85b076b64e3d")
+	)
+	(fp_line
+		(start -2.9 11.9)
+		(end -2.9 0.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38a0fdad-57e9-4ccf-9e06-60eaebe4d57e")
+	)
+	(fp_line
+		(start 2.9 0.15)
+		(end 2.9 11.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0ff0c65-fe9c-49e2-90fc-de9216066a0b")
+	)
+	(fp_line
+		(start 2.9 11.9)
+		(end -2.9 11.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd20f2c8-7504-4329-b449-b89d657d84a4")
+	)
+	(fp_text user "TRRS"
+		(at -0.75 6.45 0)
+		(layer "F.SilkS")
+		(uuid "a7b2c287-65ce-49e3-b610-9f27236df79a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "24f382c9-622d-476c-a2c3-94d04682d10c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 8.5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "69a15cc7-f101-4ddd-80e4-ae68a5f84c6f")
+	)
+	(pad "A" thru_hole oval
+		(at -2.1 11.8)
+		(size 1.7 2.5)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(clearance 0.15)
+		(uuid "80257165-3943-4970-ab7b-5b5e87f5cca6")
+	)
+	(pad "B" thru_hole oval
+		(at 2.1 3.3)
+		(size 1.7 2.5)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "b22f0e66-6197-460d-80ad-c2580fbd595a")
+	)
+	(pad "C" thru_hole oval
+		(at 2.1 6.3)
+		(size 1.7 2.5)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "cc013ce3-ecb7-4ece-b6d2-d40ba812bbdb")
+	)
+	(pad "D" thru_hole oval
+		(at 2.1 10.3)
+		(size 1.7 2.5)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(clearance 0.15)
+		(uuid "7192365e-21b0-4512-8008-a7679c4a7d35")
+	)
+	(model "${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/PJ320A.step"
+		(offset
+			(xyz 0 -8.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
