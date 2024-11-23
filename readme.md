@@ -48,8 +48,8 @@ foostan氏のご厚意に感謝いたします。
 ## 別のマイコンボードへの対応
 おすすめできませんが、できるものもあります。
 ### Seeed Studio XIAO nRF52840
-ZMK Firmwareが改良二乗マトリクスに対応しています。
-LEDは光らせられませんでした（仮にできたとしても、Blutooth通信の低下になるという）
+ZMK Firmwareが改良二乗マトリクスに対応しています。[設定例](https://github.com/tor-nky/zmk-coconut42-ble)  
+LEDは光らせられませんでした（仮にできたとしても、Blutooth通信の低下になるという）  
 [左側の裏を写した写真](images/IMG_0197.jpeg) [右側の裏を写した写真](images/IMG_0196.jpeg)
 * OLED、TRRSジャックはつけない。リチウムイオン充電池を両面テープで貼り付け、プラス線は BAT+ につなぐ。マイナス線からは BAT- につなぐ途中に電源スイッチを入れる。
 * 左右間通信はBluetoothで行う。
