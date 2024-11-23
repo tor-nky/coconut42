@@ -50,8 +50,7 @@ foostan氏のご厚意に感謝いたします。
 ### Seeed Studio XIAO nRF52840
 ZMK Firmwareが改良二乗マトリクスに対応しています。
 LEDは光らせられませんでした（仮にできたとしても、Blutooth通信の低下になるという）
-![coconut42ble_left_from_below](images/IMG_0197.jpeg)
-![coconut42ble_right_from_below](images/IMG_0196.jpeg)
+[左側の裏を写した写真](images/IMG_0197.jpeg) [右側の裏を写した写真](images/IMG_0196.jpeg)
 * OLED、TRRSジャックはつけない。リチウムイオン充電池を両面テープで貼り付け、プラス線は BAT+ につなぐ。マイナス線からは BAT- につなぐ途中に電源スイッチを入れる。
 * 左右間通信はBluetoothで行う。
 * キーを押していないときにはマイコンを眠らせたいので、[Low Power Improved Square Matrix](https://kbd.news/Low-Power-Improved-Square-Matrix-1810.html)の[この回路図](https://kbd.news/pic/article/1810/4-pin-improved-square-matrix-low-power.png)のようにダイオードをマイコン取り付け部の下側につける。  
